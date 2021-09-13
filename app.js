@@ -10,13 +10,13 @@ position.addEventListener('mousemove', e => {
 function changeProjectFilter(selectedProjects) {
     for (let i = 0; i < selectedProjects.length; i++) {
         console.log(selectedProjects[i]);
-        $(`#${selectedProjects[i]}`).css({'filter': 'grayscale(0%) blur(0px)'});
+        $(`#${selectedProjects[i]}`).css({'filter': 'grayscale(0%)  brightness(1)'});
     }
 }
 
 function removeAllFilters(allProjects) {
     for (let i = 0; i < allProjects.length; i++) {
-        $(`#${allProjects[i]}`).css({'filter': 'grayscale(100%) blur(2px)'});
+        $(`#${allProjects[i]}`).css({'filter': 'grayscale(100%)  brightness(0.25)'});
     }
 }
 
@@ -47,7 +47,7 @@ $('.clear-effects').click(() => {
 
     for (let i = 0; i < allProjects.length; i++) {
         console.log(allProjects[i]);
-        $(`#${allProjects[i]}`).css({'filter': 'grayscale(0%) blur(0px)'});
+        $(`#${allProjects[i]}`).css({'filter': 'grayscale(0%) brightness(1)'});
     }
 });
 
