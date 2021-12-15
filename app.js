@@ -55,7 +55,7 @@ $('.clear-effects').click(() => {
 
 function setProjectLinks() {
     let allProjects = ['rafi-project', 'shortly', 'devjobs', 'triptastic', 'scoutware', 'samantha'];
-    let allProjectLinks = ['https://tankop1.github.io/rafi-website/index.html', 'https://shortlyproject.netlify.app/', 'https://devjobs-search.netlify.app/', 'https://github.com/tankop1/triptastic', 'https://github.com/tankop1/scoutware', 'https://github.com/tankop1/ai_website'];
+    let allProjectLinks = ['https://tankop1.github.io/rafi-website/index.html', 'https://shortlyproject.netlify.app/', 'https://devjobs-search.netlify.app/', 'https://triptastic.netlify.app/', 'https://github.com/tankop1/scoutware', 'https://github.com/tankop1/ai_website'];
 
     for (let i = 0; i < allProjects.length; i++) {
         $(`#${allProjects[i]}`).click(() => {
